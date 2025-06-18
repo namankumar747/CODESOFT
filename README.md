@@ -1,5 +1,8 @@
 # CODESOFT
 
-Movie Genre Classification
+## Movie Genre Classification
 
-This project addresses the challenge of multi-label classification using natural language data. It involves building a model that takes movie plot summaries as input and predicts one or more genres such as Action, Comedy, Drama, or Sci-Fi. Textual features are extracted using techniques like TF-IDF or word embeddings, and classification is performed using algorithms such as Naive Bayes, Logistic Regression, or Support Vector Machines (SVM). The project highlights the use of NLP for understanding and classifying creative content.
+This project tackles the multi-label classification problem of predicting movie genres from plot summaries. The dataset contains textual descriptions of movies, which are transformed into numerical features using TF-IDF (Term Frequency–Inverse Document Frequency) vectorization. For classification, a Support Vector Machine (SVM) model is trained to handle the sparse and high-dimensional text features effectively.
+The model outputs one or more genres for each movie, such as Action, Comedy, Drama, etc. Evaluation metrics include micro and macro averaged Precision, Recall, and F1-Score, suitable for multi-label classification tasks.
+
+
